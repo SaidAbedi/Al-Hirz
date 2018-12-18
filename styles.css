@@ -1,0 +1,232 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("https://firebasestorage.googleapis.com/v0/b/quranic-50f73.appspot.com/o/Al-Hirz%2Fsh5.png?alt=media&token=78c097d8-80eb-46c7-a97d-fd5eebcb320c")no-repeat;
+  background-size: auto;
+  background-position: right bottom;
+  background-color: #E8E8E8;
+  max-width: 1440px;
+  width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+
+.section{
+  margin: 40px auto;
+}
+/*Main Body */
+.main-body{
+  width:45%;
+  height: 100vh;
+  margin: 40px 0 0 20px;
+}
+
+.main-body h4{
+  color: #E8C17C;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.dot {
+  height: 5px;
+  margin: 0 10px;
+  width: 5px;
+  background-color: #E8C17C;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.main-body h1{
+  font-size: 48px;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 48px;
+}
+.main-body h3{
+  font-weight: 300;
+  font-size: 24pt;
+  letter-spacing: 3px;
+  line-height: 3px;
+}
+
+/* image container */
+.image img{
+  display: none;
+  width: 150px;
+  height: 150px;
+
+}
+.image-container{
+  display: flex;
+  margin: 30px auto;
+}
+
+.quote{
+  flex-grow: 1;
+  margin: 20px 40px;
+  font-size: 1pt;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.testimonial-quote blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: 14pt;
+    margin: 0;
+    position: relative;
+    z-index: 600;
+}
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: #5B5B5B;
+    font-size: 10.5em;
+    font-weight: 700;
+    opacity: .6;
+    position: absolute;
+    top: .2em;
+    left: -.2em;
+    text-shadow: none;
+    z-index: -300;
+}
+.testimonial-quote blockquote p{
+  font-weight: 300;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+/*Sign-Up */
+.sign-up input{
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  font-size: 14px;
+  padding: 20px 20px;
+  width: 100%;
+  color: #292929;
+}
+
+.btn{
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  width: 100%;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 20px;
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #000000 0%, #000000 48%, #e8c17c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #000000 0%,#000000 48%,#e8c17c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #000000 0%,#000000 48%,#e8c17c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e8c17c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.about{
+  margin: 30px 0 40px 0;
+}
+
+.about h5{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about p{
+  margin: 10px 20px;
+  font-weight: 300;
+  line-height: 22pt;
+  font-size: 14px;
+}
+/* BreakPoints */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 300px) and (max-width : 750px) {
+  body{
+    width: 100%;
+    background-image: none;
+      background-color: #E8E8E8;
+
+  }
+
+  .main-body{
+    width: 90%;
+    margin: 0px auto;
+    height: 100vh;
+  }
+
+  .image-container{
+    display: block;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+  }
+  .main-body h1{
+    font-size: 33px;
+  }
+  .main-body h4{
+    font-size: 12px;
+  }
+  .sign-up input, .sign-up button{
+    text-align: center;
+    margin: 10px 0 0 10px;
+    width: 90%;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius:25px 25px 25px25px;
+      -webkit-border-radius:25px 25px 25px 25px;
+    border: 0px solid rgba(0, 0, 0, 0);
+  }
+  .header-content{
+    text-align: center;
+  }
+  .header-content img{
+    margin: 30px auto;
+    width: 150px;
+  }
+  .image img{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End */
